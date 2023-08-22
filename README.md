@@ -10,7 +10,7 @@
 ### STEP 5: Display the overall results.
 
 ## PROGRAM:
-
+```
 import numpy as np
 import pandas as pd
 data= pd.read_csv('AirPassengers.csv')
@@ -26,7 +26,7 @@ plt.plot(x,y)
 plt.xlabel('Original Data')
 plt.plot(X,Y)
 plt.xlabel('Log- Transformed data')
-
+```
 ## OUTPUT:
 ### FIRST FIVE ROWS:
 ![image](https://github.com/gpavithra673/EXP-3-Implementation-of-log-transformation-/assets/93427264/dee7e959-a649-4ac3-905c-985d80f92346)
